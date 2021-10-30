@@ -1,0 +1,14 @@
+
+@media (min-width: 900px) {
+    body{
+        min-width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 5rem;
+    }
+    .obrazek {
+        grid-area: 1 / 2;
+    }
+}
+
